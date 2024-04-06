@@ -1,3 +1,7 @@
 config.config
 data/Archive/*
 OrefAlerts copy.ipynb
+kepler_map_custom.html
+kepler.html
+embedded_kepler_map.html
+data/city_to_coords_20240405185814.json
