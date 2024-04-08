@@ -14,13 +14,13 @@
                     "type": "timeRange",
                     "value": [
                         1406221500000,
-                        1411588909000
+                        1414052451000
                     ],
                     "enlarged": true,
                     "plotType": "histogram",
                     "animationWindow": "free",
                     "yAxis": null,
-                    "speed": 1
+                    "speed": 0.5
                 }
             ],
             "layers": [
@@ -187,6 +187,52 @@
                             {
                                 "name": "rid",
                                 "format": null
+                            },
+                            {
+                                "name": "distance_from_north_gaza",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_central_gaza",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_south_gaza",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_south_lebanon",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_yemen",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_avg",
+                                "format": null
+                            }
+                        ],
+                        "admin_regions": [
+                            {
+                                "name": "scalerank",
+                                "format": null
+                            },
+                            {
+                                "name": "adm1_code",
+                                "format": null
+                            },
+                            {
+                                "name": "diss_me",
+                                "format": null
+                            },
+                            {
+                                "name": "adm1_cod_1",
+                                "format": null
+                            },
+                            {
+                                "name": "iso_3166_2",
+                                "format": null
                             }
                         ]
                     },
@@ -205,7 +251,7 @@
                     "enabled": true
                 }
             },
-            "layerBlending": "normal",
+            "layerBlending": "subtractive",
             "splitMaps": [],
             "animationConfig": {
                 "currentTime": null,
@@ -213,12 +259,12 @@
             }
         },
         "mapState": {
-            "bearing": 0,
-            "dragRotate": false,
-            "latitude": 30.710034733352735,
-            "longitude": 35.455203410267835,
-            "pitch": 0,
-            "zoom": 6.309705406605094,
+            "bearing": -11.90292813680917,
+            "dragRotate": true,
+            "latitude": 30.261584171808405,
+            "longitude": 35.30511861539606,
+            "pitch": 57.57166070947287,
+            "zoom": 7.699999999999999,
             "isSplit": false
         },
         "mapStyle": {
@@ -226,9 +272,9 @@
             "topLayerGroups": {},
             "visibleLayerGroups": {
                 "label": true,
-                "road": true,
+                "road": false,
                 "border": true,
-                "building": true,
+                "building": false,
                 "water": true,
                 "land": true,
                 "3d building": false
