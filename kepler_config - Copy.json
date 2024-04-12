@@ -1,0 +1,268 @@
+{
+    "version": "v1",
+    "config": {
+        "visState": {
+            "filters": [
+                {
+                    "dataId": [
+                        "OrefSirens"
+                    ],
+                    "id": "ed77mhj1",
+                    "name": [
+                        "alertDate"
+                    ],
+                    "type": "timeRange",
+                    "value": [
+                        1406221500000,
+                        1414052451000
+                    ],
+                    "enlarged": true,
+                    "plotType": "histogram",
+                    "animationWindow": "free",
+                    "yAxis": null,
+                    "speed": 0.1
+                }
+            ],
+            "layers": [
+                {
+                    "id": "pd16gsv",
+                    "type": "arc",
+                    "config": {
+                        "dataId": "OrefSirens",
+                        "label": "SirensEdges",
+                        "color": [
+                            255,
+                            251,
+                            152
+                        ],
+                        "highlightColor": [
+                            252,
+                            242,
+                            26,
+                            255
+                        ],
+                        "columns": {
+                            "lat0": "inLat",
+                            "lng0": "inLong",
+                            "lat1": "outLat",
+                            "lng1": "outLong"
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "opacity": 0.8,
+                            "thickness": 4,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "sizeRange": [
+                                0,
+                                10
+                            ],
+                            "targetColor": [
+                                218,
+                                0,
+                                0
+                            ]
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 18,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "colorField": null,
+                        "colorScale": "quantile",
+                        "sizeField": null,
+                        "sizeScale": "linear"
+                    }
+                },
+                {
+                    "id": "p5giket",
+                    "type": "heatmap",
+                    "config": {
+                        "dataId": "OrefSirens",
+                        "label": "SirensNodes",
+                        "color": [
+                            231,
+                            159,
+                            213
+                        ],
+                        "highlightColor": [
+                            252,
+                            242,
+                            26,
+                            255
+                        ],
+                        "columns": {
+                            "lat": "outLat",
+                            "lng": "outLong"
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "opacity": 0.8,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "radius": 50
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 22,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "weightField": null,
+                        "weightScale": "linear"
+                    }
+                }
+            ],
+            "interactionConfig": {
+                "tooltip": {
+                    "fieldsToShow": {
+                        "OrefSirens": [
+                            {
+                                "name": "data",
+                                "format": null
+                            },
+                            {
+                                "name": "date",
+                                "format": null
+                            },
+                            {
+                                "name": "time",
+                                "format": null
+                            },
+                            {
+                                "name": "category_desc",
+                                "format": null
+                            },
+                            {
+                                "name": "rid",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_north_gaza",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_central_gaza",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_south_gaza",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_south_lebanon",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_yemen",
+                                "format": null
+                            },
+                            {
+                                "name": "distance_from_avg",
+                                "format": null
+                            }
+                        ]
+                    },
+                    "compareMode": false,
+                    "compareType": "absolute",
+                    "enabled": true
+                },
+                "brush": {
+                    "size": 0.5,
+                    "enabled": false
+                },
+                "geocoder": {
+                    "enabled": false
+                },
+                "coordinate": {
+                    "enabled": true
+                }
+            },
+            "layerBlending": "subtractive",
+            "splitMaps": [],
+            "animationConfig": {
+                "currentTime": null,
+                "speed": 0.05
+            }
+        },
+        "mapState": {
+            "bearing": -32.8532974795134,
+            "dragRotate": true,
+            "latitude": 30.143569146282307,
+            "longitude": 35.15386211677196,
+            "pitch": 58.386335240714025,
+            "zoom": 7.699999999999999,
+            "isSplit": false
+        },
+        "mapStyle": {
+            "styleType": "dark",
+            "topLayerGroups": {},
+            "visibleLayerGroups": {
+                "label": true,
+                "road": false,
+                "border": true,
+                "building": false,
+                "water": true,
+                "land": true,
+                "3d building": false
+            },
+            "threeDBuildingColor": [
+                9.665468314072013,
+                17.18305478057247,
+                31.1442867897876
+            ],
+            "mapStyles": {}
+        }
+    }
+}

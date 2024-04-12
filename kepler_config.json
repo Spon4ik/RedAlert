@@ -14,13 +14,64 @@
                     "type": "timeRange",
                     "value": [
                         1406221500000,
-                        1414052451000
+                        1411587013000
                     ],
                     "enlarged": true,
                     "plotType": "histogram",
                     "animationWindow": "free",
                     "yAxis": null,
-                    "speed": 0.5
+                    "speed": 0.1
+                },
+                {
+                    "dataId": [
+                        "OrefSirens"
+                    ],
+                    "id": "9665dcmz",
+                    "name": [
+                        "rid"
+                    ],
+                    "type": "range",
+                    "value": [
+                        1,
+                        29306
+                    ],
+                    "enlarged": false,
+                    "plotType": "histogram",
+                    "animationWindow": "free",
+                    "yAxis": null,
+                    "speed": 1
+                },
+                {
+                    "dataId": [
+                        "OrefSirens"
+                    ],
+                    "id": "f96bh24k",
+                    "name": [
+                        "Coalesced_City_Data"
+                    ],
+                    "type": "multiSelect",
+                    "value": [],
+                    "enlarged": false,
+                    "plotType": "histogram",
+                    "animationWindow": "free",
+                    "yAxis": null,
+                    "speed": 1
+                },
+                {
+                    "dataId": [
+                        "OrefSirens"
+                    ],
+                    "id": "9zu8ip4ns",
+                    "name": [
+                        "source"
+                    ],
+                    "type": "multiSelect",
+                    "value": [],
+                    "enlarged": false,
+                    "plotType": "histogram",
+                    "animationWindow": "free",
+                    "yAxis": null,
+                    "speed": 1
                 }
             ],
             "layers": [
@@ -50,7 +101,7 @@
                         "isVisible": true,
                         "visConfig": {
                             "opacity": 0.8,
-                            "thickness": 4,
+                            "thickness": 5,
                             "colorRange": {
                                 "name": "Global Warming",
                                 "type": "sequential",
@@ -137,7 +188,7 @@
                                     "#FFC300"
                                 ]
                             },
-                            "radius": 20
+                            "radius": 15
                         },
                         "hidden": false,
                         "textLabel": [
@@ -148,7 +199,7 @@
                                     255,
                                     255
                                 ],
-                                "size": 18,
+                                "size": 22,
                                 "offset": [
                                     0,
                                     0
@@ -211,27 +262,9 @@
                             {
                                 "name": "distance_from_avg",
                                 "format": null
-                            }
-                        ],
-                        "admin_regions": [
-                            {
-                                "name": "scalerank",
-                                "format": null
                             },
                             {
-                                "name": "adm1_code",
-                                "format": null
-                            },
-                            {
-                                "name": "diss_me",
-                                "format": null
-                            },
-                            {
-                                "name": "adm1_cod_1",
-                                "format": null
-                            },
-                            {
-                                "name": "iso_3166_2",
+                                "name": "Coalesced_City_Data",
                                 "format": null
                             }
                         ]
@@ -259,11 +292,11 @@
             }
         },
         "mapState": {
-            "bearing": -11.90292813680917,
+            "bearing": -32.8532974795134,
             "dragRotate": true,
-            "latitude": 30.261584171808405,
-            "longitude": 35.30511861539606,
-            "pitch": 57.57166070947287,
+            "latitude": 30.143569146282307,
+            "longitude": 35.15386211677196,
+            "pitch": 58.386335240714025,
             "zoom": 7.699999999999999,
             "isSplit": false
         },
