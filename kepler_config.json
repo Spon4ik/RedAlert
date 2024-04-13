@@ -30,11 +30,8 @@
                     "name": [
                         "rid"
                     ],
-                    "type": "range",
-                    "value": [
-                        1,
-                        29306
-                    ],
+                    "type": "multiSelect",
+                    "value": [],
                     "enlarged": false,
                     "plotType": "histogram",
                     "animationWindow": "free",

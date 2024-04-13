@@ -1,0 +1,154 @@
+[
+    {
+        "לוד": {
+            "iw": {
+                "results": [
+                    {
+                        "address_components": [
+                            {
+                                "long_name": "לוד",
+                                "short_name": "לוד",
+                                "types": [
+                                    "locality",
+                                    "political"
+                                ]
+                            },
+                            {
+                                "long_name": "רמלה",
+                                "short_name": "רמלה",
+                                "types": [
+                                    "administrative_area_level_2",
+                                    "political"
+                                ]
+                            },
+                            {
+                                "long_name": "מחוז המרכז",
+                                "short_name": "מחוז המרכז",
+                                "types": [
+                                    "administrative_area_level_1",
+                                    "political"
+                                ]
+                            },
+                            {
+                                "long_name": "ישראל",
+                                "short_name": "IL",
+                                "types": [
+                                    "country",
+                                    "political"
+                                ]
+                            }
+                        ],
+                        "formatted_address": "לוד, ישראל",
+                        "geometry": {
+                            "bounds": {
+                                "northeast": {
+                                    "lat": 31.974739,
+                                    "lng": 34.921026
+                                },
+                                "southwest": {
+                                    "lat": 31.932412,
+                                    "lng": 34.8677071
+                                }
+                            },
+                            "location": {
+                                "lat": 31.951014,
+                                "lng": 34.888075
+                            },
+                            "location_type": "APPROXIMATE",
+                            "viewport": {
+                                "northeast": {
+                                    "lat": 31.974739,
+                                    "lng": 34.921026
+                                },
+                                "southwest": {
+                                    "lat": 31.932412,
+                                    "lng": 34.8677071
+                                }
+                            }
+                        },
+                        "place_id": "ChIJoQbRWlzKAhURGoHKB15E7qw",
+                        "types": [
+                            "locality",
+                            "political"
+                        ]
+                    }
+                ],
+                "status": "OK"
+            },
+            "en": {
+                "results": [
+                    {
+                        "address_components": [
+                            {
+                                "long_name": "Lod",
+                                "short_name": "Lod",
+                                "types": [
+                                    "locality",
+                                    "political"
+                                ]
+                            },
+                            {
+                                "long_name": "Ramla",
+                                "short_name": "Ramla",
+                                "types": [
+                                    "administrative_area_level_2",
+                                    "political"
+                                ]
+                            },
+                            {
+                                "long_name": "Center District",
+                                "short_name": "Center District",
+                                "types": [
+                                    "administrative_area_level_1",
+                                    "political"
+                                ]
+                            },
+                            {
+                                "long_name": "Israel",
+                                "short_name": "IL",
+                                "types": [
+                                    "country",
+                                    "political"
+                                ]
+                            }
+                        ],
+                        "formatted_address": "Lod, Israel",
+                        "geometry": {
+                            "bounds": {
+                                "northeast": {
+                                    "lat": 31.974739,
+                                    "lng": 34.921026
+                                },
+                                "southwest": {
+                                    "lat": 31.932412,
+                                    "lng": 34.8677071
+                                }
+                            },
+                            "location": {
+                                "lat": 31.951014,
+                                "lng": 34.888075
+                            },
+                            "location_type": "APPROXIMATE",
+                            "viewport": {
+                                "northeast": {
+                                    "lat": 31.974739,
+                                    "lng": 34.921026
+                                },
+                                "southwest": {
+                                    "lat": 31.932412,
+                                    "lng": 34.8677071
+                                }
+                            }
+                        },
+                        "place_id": "ChIJoQbRWlzKAhURGoHKB15E7qw",
+                        "types": [
+                            "locality",
+                            "political"
+                        ]
+                    }
+                ],
+                "status": "OK"
+            }
+        }
+    }
+]
