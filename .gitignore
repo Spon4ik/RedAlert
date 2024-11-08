@@ -3,4 +3,54 @@ data/Archive/*
 OrefAlerts copy.ipynb
 data/city_to_coords_20240405185814.json
 maps_api_geocode_key.json
-maps_api_geocode_key.json
+*.pyc
+data/alarms_history_en.json
+data/alarms_history_he.json
+data/alarms_history.json
+data/alarms_historyhe.json
+data/GetAlarmInstructions.aspx.json
+data/GetAlertCategories.aspx.json
+data/GetCities.aspx.json
+data/GetCitiesMix.aspx.json
+data/GetDistricts.aspx.json
+City Remiver-Spon4ik-PC2023.ipynb
+city_to_coords-Spon4ik-PC2023.json
+FetchAlerts-Spon4ik-PC2023.py
+HomeFrontAlerts - Copy (2).ipynb
+HomeFrontAlerts - Copy.ipynb
+HomeFrontAlerts-Spon4ik-PC2023.ipynb
+kepler_map-Spon4ik-PC2023.html
+data/GIS/muni_vaadim.dbf
+data/GIS/muni_vaadim.geojson
+data/GIS/muni_vaadim.lyrx
+data/GIS/muni_vaadim.prj
+data/GIS/muni_vaadim.shp
+data/GIS/muni_vaadim.shx
+data/alarms_history.json
+data/all_osm_data.json
+data/alarms_history.json
+data/cities - Copy.json
+data/cities_mix.json
+data/city_to_coords.json.bak
+data/defend_areas - Copy.json
+data/defend_areas-Spon4ik-PC2023.json
+data/df_alarm_ht_def_areas_city_2nd_try.csv
+data/df_alarm_ht_def_areas_city_exported.csv
+data/df_alarm_ht_def_areas_city_exported.json
+data/df_alarm_ht_def_areas_city.csv
+data/df_alarm_ht_def_areas_exported.csv
+data/df_prep_03_exported.csv
+data/df_prep_04.csv
+data/df_prep_04.json.tmp
+data/df_unique_cities_enriched.csv
+-Spon4ik-PC2023.gitignore
+data/fetch_osm_data.ipynb
+data/il.json
+data/israel.geojson
+data/map_config.json
+city_to_coords.json
+city_to_coords - Copy.json
+city_to_coords.json
+kepler_map.html
+data/my_kepler_map.html
+data/my_kepler_map.html

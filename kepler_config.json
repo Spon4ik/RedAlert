@@ -30,8 +30,11 @@
                     "name": [
                         "rid"
                     ],
-                    "type": "multiSelect",
-                    "value": [],
+                    "type": "range",
+                    "value": [
+                        1,
+                        32226
+                    ],
                     "enlarged": false,
                     "plotType": "histogram",
                     "animationWindow": "free",
@@ -44,7 +47,7 @@
                     ],
                     "id": "f96bh24k",
                     "name": [
-                        "Coalesced_City_Data"
+                        "City"
                     ],
                     "type": "multiSelect",
                     "value": [],
@@ -90,10 +93,10 @@
                             255
                         ],
                         "columns": {
-                            "lat0": "inLat",
-                            "lng0": "inLong",
-                            "lat1": "outLat",
-                            "lng1": "outLong"
+                            "lat0": "fromlat",
+                            "lng0": "fromlng",
+                            "lat1": "lat",
+                            "lng1": "lng"
                         },
                         "isVisible": true,
                         "visConfig": {
@@ -166,8 +169,8 @@
                             255
                         ],
                         "columns": {
-                            "lat": "outLat",
-                            "lng": "outLong"
+                            "lat": "lat",
+                            "lng": "lng"
                         },
                         "isVisible": true,
                         "visConfig": {
@@ -237,31 +240,11 @@
                                 "format": null
                             },
                             {
-                                "name": "distance_from_north_gaza",
+                                "name": "City",
                                 "format": null
                             },
                             {
-                                "name": "distance_from_central_gaza",
-                                "format": null
-                            },
-                            {
-                                "name": "distance_from_south_gaza",
-                                "format": null
-                            },
-                            {
-                                "name": "distance_from_south_lebanon",
-                                "format": null
-                            },
-                            {
-                                "name": "distance_from_yemen",
-                                "format": null
-                            },
-                            {
-                                "name": "distance_from_avg",
-                                "format": null
-                            },
-                            {
-                                "name": "Coalesced_City_Data",
+                                "name": "source",
                                 "format": null
                             }
                         ]
@@ -289,12 +272,12 @@
             }
         },
         "mapState": {
-            "bearing": -32.8532974795134,
+            "bearing": -45.450172114722335,
             "dragRotate": true,
-            "latitude": 30.143569146282307,
-            "longitude": 35.15386211677196,
-            "pitch": 58.386335240714025,
-            "zoom": 7.699999999999999,
+            "latitude": 30.76638461122556,
+            "longitude": 34.98075575623458,
+            "pitch": 58.67296848136606,
+            "zoom": 8.24805891867898,
             "isSplit": false
         },
         "mapStyle": {
